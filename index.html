@@ -1,240 +1,215 @@
-<!doctype html>
-<html lang="es">
-
+<!DOCTYPE html>
+<html>
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta charset="utf-8">
-  <title>COMUNIDAD PMI TRUJILLO</title>
-
-
-
-  <!-- Bootstrap CSS -->
-
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="style.css" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Francois+One" rel="stylesheet">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hero - Free Bulma template</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <!-- Bulma Version 0.6.0 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.0/css/bulma.min.css" integrity="sha256-HEtF7HLJZSC3Le1HcsWbz1hDYFPZCqDhZa9QsCgVUdw=" crossorigin="anonymous" />
+  <link rel="stylesheet" type="text/css" href="css/index.css">
 </head>
-
 <body>
-  <!--   <div class="barra-top">
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <img src="img/logo-azul.png" alt="pmi-trujillo" height="90" width="170">
-        </div>
-        <div class="col" align="right">
-          <ul class="social-header list-inline text-rs-right">
-            <li class="list-inline-item">
-              <a href="#">
-      <i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="#">
-        <i class="fa fa-twitter-square  fa-2x" aria-hidden="true"></i>
-    </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="#">
-        <i class="fa fa-linkedin-square  fa-2x" aria-hidden="false"></i>
-    </a>
-            </li>
-          </ul>
-        </div>
-        <div class="col" align="right">
-          <a href="#"><button type="button" class="btn btn-primary">Registro</button></a>
-          <a href="#"><button type="button" class="btn btn-outline-primary">Ingresar</button></a>
-        </div>
-      </div>
-    </div>
-  </div> -->
-  <nav class="navbar navbar-expand-lg navbar-light menu-bar fixed-top " id="barra-principal">
-    <div class="container">
-      <nav class="navbar navbar-light bg-faded">
-        <a class="navbar-brand" href="#">
-        <img src="img/logo-blanco.png" alt="pmi-trujillo" height="60" width="120">
-        </a>
-      </nav>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-          <li class="nav-item ">
-            <a class="nav-link" href="#">Nosotros</a>
-          </li>
-          <li class="nav-item ">
-            <a class="nav-link" href="#">Membresia</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Voluntariado</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Eventos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contacto</a>
-          </li>
-        </ul>
-        <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="text" placeholder="Buscar" aria-label="Search">
-          <button class="btn btn-primary  my-2 my-sm-0" type="submit">Buscar</button>
-        </form>
-      </div>
-    </div>
-  </nav>
 
-  <header class="intro-header">
-    <section>
-      <div class="intro-message">
-        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img class="d-block w-100" src="img/banner.jpeg" alt="First slide">
-            </div>
-            <div class="carousel-item">
-              <img class="d-block w-100" src="img/banner.jpeg" alt="Second slide">
-            </div>
-            <div class="carousel-item">
-              <img class="d-block w-100" src="img/banner.jpeg" alt="Third slide">
+  <section class="hero is-dark is-fullheight is-bold" id="top-img">
+    <div class="hero-head" id="navbar-principal">
+      <nav class="navbar">
+        <div class="container">
+          <div class="navbar-brand">
+            <a class="navbar-item" href="../">
+              <img src="img/logo-blanco.png" alt="Logo" id="logo" href="index.html">
+            </a>
+            <span class="navbar-burger burger" data-target="navbarMenu">
+              <span></span>
+              <span></span>
+              <span></span>
+            </span>
+          </div>
+          <div id="navbarMenu" class="navbar-menu">
+            <div class="navbar-end">
+              <a class="navbar-item is-active" id="item" href="index.html">
+                Inicio
+              </a>
+              <a class="navbar-item" id="item"  href="presentacion.html">
+                Nosotros
+              </a>
+              <a class="navbar-item" id="item">
+                Membresía
+              </a>
+              <a class="navbar-item" id="item">
+                Voluntariado
+              </a>
+              <a class="navbar-item" id="item">
+                Eventos
+              </a>
+              <a class="navbar-item" id="item" >
+                Contacto
+              </a>
+              <span class="navbar-item">
+                <a class="button is-white is-outlined is-small" href="https://github.com/dansup/bulma-templates/blob/master/templates/hero.html">
+                  <span class="icon">
+                    <i class="fa fa-github"></i>
+                  </span>
+                  <span>Ingresar</span>
+                </a>
+              </span>
             </div>
           </div>
-          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
         </div>
+      </nav>
+    </div>
+    <div class="hero-body">
+      <div class="container has-text-centered">
+        <!-- <h1 class="title">
+          PMI en Trujillo
+        </h1>
+        <h2 class="subtitle">
+          Comunidad de Dirección de Proyectos del Project Management Institute
+            </h2> -->
+      </div>
+    </div>
+    <div class="box cta" id="azul">
+      <p class="has-text-centered">
+        La <strong>gestión de proyectos </strong> es una competencia crítica que tiene una influencia positiva en los resultados de la organización y la sociedad
+      </p>
+    </div>
+
+  </section>
+
+
+
+  <section class="container">
+    <div class="columns features">
+      <div class="column is-4">
+        <div class="card" >
+          <div class="card-image has-text-centered">
+              <i class="fa fa-heart "></i>
+          </div>
+          <div class="card-content">
+            <div class="content">
+              <h4 >Voluntariado</h4>
+              <p>Avanza tus habilidades de liderazgo. Ya seas nuevo como voluntario o
+                 veterano experimentado, mejora tus habilidades de
+                  liderazgo usando nuestros recursos disponibles
+                   para los voluntarios.</p>
+              <p><a href="#">Ver mas</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="column is-4">
+        <div class="card">
+          <div class="card-image has-text-centered">
+              <i class="fa fa-id-card-o"></i>
+          </div>
+          <div class="card-content">
+            <div class="content">
+              <h4>Membresía</h4>
+              <p>Consulte las opciones de membresía que tenemos para profesionales,
+                 estudiantes y jubilados. El plan de <strong>facturación grupal </strong>
+                 está disponible para organizaciones y universidades.</p>
+              <p><a href="#">Ver mas</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="column is-4">
+        <div class="card">
+          <div class="card-image has-text-centered">
+              <i class="fa fa-graduation-cap"></i>
+          </div>
+          <div class="card-content">
+            <div class="content">
+              <h4>Aprende</h4>
+              <p>Explore las últimas ideas y piense en temas clave de gestión de proyectos.<br>
+                Escuche a los líderes de la industria y profundice en las áreas que impactan
+                en nuestra profesión.</p>
+              <p><a href="#">Ver mas</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+
+    <section class="hero is-bolt is-large">
+      <div class="intro column is-8 is-offset-2">
+        <h2 class="title">Formación y desarrollo</h2><br>
+        <p class="subtitle"><strong>Mejore su conjunto de habilidades, aumente su valor para su
+           organización y mejore sus perspectivas de carrera a través de nuestras
+           oportunidades de capacitación en persona y en línea, y más.
+Explore la capacitación y el desarrollo.</strong></p>
       </div>
     </section>
-  </header>
 
+<section>
+    <div class="sandbox">
 
-
-  <!--<div class="container">
-  <div class="row">
-    <div class="col">
-      <img src="img/foto2.jpg" alt="" width="500" height="400">
-    </div>
-    <div class="col">
-      <h1>¿Qué es PMI Trujillo?</h1>
-      <p>
-          </p>
-    </div>
-  </div>
-
-</div>
--->
-  <section class="content-section-a">
-
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-5 ml-auto">
-          <hr class="section-heading-spacer">
-          <div class="clearfix"></div>
-          <h2 class="section-heading">¿Qué es PMI Trujillo?</h2>
-          <p class="lead">
-            La Comunidad PMI Trujillo ha sido fundada como una organización sin fines de lucro constituido por PMI®, y se dedica a avanzar la práctica, la ciencia y la profesión de administración de proyectos en el área geográfica asignada por PMI® y bajo el ámbito
-            geográfico del Capítulo PMI Cajamarca.
-          </p>
+      <div class="tile is-ancestor">
+        <div class="tile is-vertical is-8">
+          <div class="tile">
+            <div class="tile is-parent is-vertical" id="azul">
+              <article class="tile is-child notification is-white" id="azul">
+                <p class="title">Construya una red profesional</p>
+                <p class="subtitle">Construya su red profesional forjando relaciones duraderas con miles de voluntarios y profesionales de PMI en todo el mundo./p>
+              </article>
+              <article class="tile is-child notification is-white" id="blanco">
+                <p class="title">Carreras</p>
+                <p class="subtitle">Encuentre un trabajo, prepárese para
+                   próximas entrevistas, obtenga conocimiento, recursos y
+                   conocimientos para potenciar su carrera.</p>
+              </article>
+            </div>
+            <div class="tile is-parent" id="blanco">
+              <article class="tile is-child notification is-white" id="azul">
+                <p class="title">Ganá habilidades y experiencias</p>
+                <p class="subtitle">Desarrollate como un líder</p>
+                <figure class="image is-4by3">
+                  <img src="img/foto1.jpg">
+                </figure>
+              </article>
+            </div>
+          </div>
+          <div class="tile is-parent" id="blanco">
+            <article class="tile is-child notification is-white" id="azul">
+              <p class="title">Certificaciones</p>
+              <p class="subtitle">Demuestre sus logros</p>
+              <div class="content">
+                <p>Todas las certificaciones de PMI requieren que cumplas niveles de experiencia en el dominio, niveles educativos o ambos antes de presentar tu solicitud. Deberá proporcionarnos los detalles de esta experiencia y/o educación, por lo que es mejor recopilar y preparar esta información antes de abrir la aplicación.</p>
+              </div>
+            </article>
+          </div>
         </div>
-        <div class="col-lg-5 mr-auto" align="center">
-          <img class="img-fluid" src="img/logo-azul.png" alt="">
+        <div class="tile is-parent" id="azul">
+          <article class="tile is-child notification is-white" id="blanco">
+            <div class="content">
+              <p class="title">¿Pensando en ser voluntario? </p>
+              <p class="subtitle">¡Solo hazlo!</p>
+              <div class="content">
+                <p>El voluntariado con PMI puede proporcionarle experiencias adicionales y habilidades de liderazgo que quizás no encuentre en su trabajo.</p>
+                <p>El voluntariado con PMI puede brindarle oportunidades que le permitan compartir conocimientos y experiencia con otros profesionales de proyectos de todo el mundo.</p>
+                <p>El voluntariado con PMI puede proporcionarle una perspectiva global de cómo los gerentes de proyectos trabajan en diversas industrias y diferentes culturas de todo el mundo.</p>
+                <img src="img/foto9.jpg" alt="">
+              </div>
+            </div>
+          </article>
         </div>
       </div>
 
     </div>
-    <!-- /.container -->
   </section>
-
-  <section class="content-section-b">
-
+  <footer class="footer">
     <div class="container">
+      <div class="content has-text-centered">
+        <p>
+          Copyright © Eduardo Zavaleta 2017. All Rights Reserved
+        </p>
 
-      <div class="row">
-        <div class="col-lg-5 mr-auto order-lg-2">
-          <hr class="section-heading-spacer">
-          <div class="clearfix"></div>
-          <h2 class="section-heading">Voluntariado</h2>
-          <p class="lead">
-            Únase a PMI, la organización de gestión de proyectos líder en el mundo con más de 450,000 Miembros Globales y más de 280 Capítulos locales a nivel internacional.
-          </p>
-        </div>
-        <div class="col-lg-5 ml-auto order-lg-1">
-          <img class="img-fluid" src="img/foto9.jpg" alt="">
-        </div>
       </div>
-
-    </div>
-    <!-- /.container -->
-
-  </section>
-  <!-- /.content-section-b -->
-  <aside class="banner">
-
-    <div class="container">
-
-      <div class="row">
-        <div class="col-lg-8 my-auto">
-          <h2>Boletines</h2>
-          <p>Descarga nuestros boletines</p>
-        </div>
-        <div class="col-lg-4 my-auto">
-              <a href="#" class="btn btn-secondary btn-lg">
-                <i class="fa fa-download"></i>
-                <span class="network-name">Descargar</span>
-              </a>
-
-          </ul>
-        </div>
-      </div>
-
-    </div>
-    <!-- /.container -->
-
-  </aside>
-  <!-- /.banner -->
-  <!-- Footer -->
-  <footer>
-    <div class="container">
-      <ul class="list-inline">
-        <li class="list-inline-item">
-          <a href="#">Inicio</a>
-        </li>
-        <li class="footer-menu-divider list-inline-item">&sdot;</li>
-        <li class="list-inline-item">
-          <a class="nav-link" href="#">Nosotros</a>
-        </li>
-        <li class="footer-menu-divider list-inline-item">&sdot;</li>
-        <li class="list-inline-item">
-          <a class="nav-link" href="#">Membresia</a>
-        </li>
-        <li class="footer-menu-divider list-inline-item">&sdot;</li>
-        <li class="list-inline-item">
-          <a class="nav-link" href="#">Voluntariado</a>
-        </li>
-        <li class="footer-menu-divider list-inline-item">&sdot;</li>
-        <li class="list-inline-item">
-          <a class="nav-link" href="#">Eventos</a>
-        </li>
-        <li class="footer-menu-divider list-inline-item">&sdot;</li>
-        <li class="list-inline-item">
-          <a class="nav-link" href="#">Contacto</a>
-        </li>
-      </ul>
-      <p class="copyright text-muted small">Copyright &copy; Eduardo Zavaleta 2017. All Rights Reserved</p>
     </div>
   </footer>
-
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+  <script async type="text/javascript" src="js/bulma.js"></script>
 </body>
-
 </html>
