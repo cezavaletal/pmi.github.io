@@ -79,3 +79,14 @@ nav.navbar {
   max-height: 250px;
   overflow-y: scroll;
 }
+
+
+/*contacto*/
+#azul{
+  background-color: #004165;
+  margin-bottom: 0px;
+  color: #fff;
+}
+.label{
+  color: #fff;
+}
